@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        ol{
+            list-style-type: none;
+        }
+        ol li{
+            display: inline-block;
+        }
+
+        ol li ol{
+            list-style-type: none;
+        }
+
+        ol li ol li{
+           display: none;
+        }
+
+       
+    </style>
+</head>
+<!--
+Path
+1. Absolute Path == Full URL
+2. Relative Path  == Partial URL
+
+     three case
+       1. you need to enter the folder =  foldername/
+       2. you need to exit from the folder = ../
+       3. same folder  = filename.ext
+
+
+-->
+<body >
+    <a id="top"></a>
+    <h1>Welcome to the site</h1>
+
+    <a href="index.html">Home</a> |
+    <a href="#list">List</a> |
+
+    <!-- HyperLink
+       #1 Pages/URL Links //Relative Path
+       #2. External Pages/URL Links   //Absoulute Path
+       #3. Same Page Links   //need to define a name
+            First: We need to defien the name
+               <a name="top">
+            Second:
+               Hyperlink
+                  1. <a href="#top">Goto TOp</a>
+                  2.  <a href="index.html#top">top</a>
+       #4. Email Links  
+       Syntax: <a > Anchor Name</a>
+           Attributes:
+              href="path"
+              name=""
+              target="_blank/_self/_parent"
+-->
+    <nav>
+    <ol>
+        <li></li>
+        <li><a href="pages/about.html">About Trinity</a>
+            <ol>
+                <li>Introduction</li>
+                <li>Mission, Vision</li>
+                <li>Timeline</li>
+                <li>Facts</li>
+            </ol>
+        </li>
+        <li>Academic Programs
+            <ol>
+                <li>+2</li>
+                <li>BSC CSIT</li>
+                <li>BCA</li>
+                <li>BBS</li>
+            </ol>
+        </li>
+        <li>Trinity People</li>
+        <li>MEssage</li>
+        <li>Admission Info</li>
+        <li><a href="pages/contact.html">Contact</a></li>
+        <li><a href="https://www.tuiost.edu.np/" target="_blank">TU IOST</a></li>
+        <li><a href="mailto:info@mysite.com">EMAIL US</a></li>
+        <li></li>
+    </ol>
+</nav>
+
+
+    <p align="justify">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas aperiam hic architecto? Porro doloribus error cumque invento
+        
+        
+        <br/>
+        <br/>
+        <br/>
+
+        <!--
+
+
+        -->
+        
+        
+        &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp; re alias ipsa esse ea quis recusandae, assumenda voluptatum commodi molestiae ipsam aperiam culpa! Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, architecto   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;             odit magni, ipsum quaerat laboriosam mollitia voluptatibus aliquam ab debitis expedita explicabo doloremque ipsa fugit soluta velit fuga. In, ab.
+    </p>
+
+
+    <p>&euro; 102.</p>
+    <p>&dollar; 102</p>
+    <p>&pound; 102</p>
+
+    <p>
+        &copy; 2021, yoursite.com, All Right &reg; Reserved &trade; 
+    </p>
+    <blockquote>     <blockquote>
+
+        <p>
+
+            <font size="4" color="green" face="Impact"> 
+
+                <img src="images/trek1.jpg" hspace="10px" vspace="10px" align="left" width="150px" alt="Trekking 1" title="trekking 1"/>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque animi, aperiam temporibus in necessitatibus similique perferendis dolore cupiditate a? Assumenda quasi natus dolorum minus nobis saepe dolor maxime cumque velit?Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut sunt labore, quaerat<mark> perspiciatis aperiam doloremque rerum soluta culpa. Id, eius blanditiis! Nisi quia tempora debitis cupiditate quibusdam aliquam, aperiam Lorem ipsum dolor sit, amet consectetur</mark>
+            </font> 
+            <font size="7" color="red" face="Courier New">adipisicing elit. Blanditiis voluptates sequi consectetur delectus libero fuga aspernatur distinctio voluptatem minus maiores illum commodi quasi ex praesentium, adipisci quidem consequatur laudantium necessitatibus!lorem        Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores eveniet quisquam vero expedita deserunt corrupti unde ducimus provident ipsum, repudiandae fugiat distinctio blanditiis odit labore tempora repellat rerum incidunt voluptatum.
+                </font>
+        </p>
+    </blockquote>    </blockquote>
+    <pre>
+    Sn          name            Address         Phone
+    1           Dharma          Kathmandu       3458304860
+    2           Smrity          Kathmandau      4409583095
+    3           Rahul           Laitpur         430506777
+    4           Sandesh         Bhaktapur       9458305
+</pre>
+
+The <abbr title="Web Hypertext Application Technology Working Group">WHATWG</abbr> started working on HTML5 in 2004.
+<hr width="80%" align="left" color="red" size="2" noshade />
+
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores repudiandae mollitia, est officia tempora eaque accusamus minima inventore perferendis, dolore eum cumque adipisci. Architecto labore a vel nam enim. Temporibus.lorem</p>
+
+<!-- LIST
+    1. Order LIst
+    2. Unorder List
+    3. Description/Defination List
+    #ORDER LIST
+    <ol>  
+      <li>dkfl</li>  
+      <li>dkfl</li>  
+      <li>dkfl</li>  
+      <li>dkfl</li>  
+    </ol>
+
+    attribtes
+       type="1/A/a/I/i"
+       start="number"
+-->
+
+
+<a id="list"></a>
+
+<h2>Name of the Students</h2>
+<ol type="I" start="5">
+    <li>Sacar Shrestha</li>
+    <li>Sandesh Pandey</li>
+    <li>Smrity Mulmi</li>
+    <li>Rahul Ingnam</li>
+</ol>
+
+
+<!-- Unoder List
+    It is used for bulltes
+    <ul>
+
+        <li>    </li>
+
+    </ul>
+
+    #attributes
+    type="disc/circle/square"
+-->
+
+<h2>Name of the Students</h2>
+<ul type="square">
+    <li>Sacar Shrestha</li>
+    <li>Sandesh Pandey</li>
+    <li>Smrity Mulmi</li>
+    <li>Rahul Ingnam</li>
+</ul>
+
+<!--Description LIst
+    <dl>
+        <dt></dt>
+        <dd></dd>
+
+        <dt></dt>
+        <dd></dd>
+    </dl>
+-->
+<h2>Description List</h2>
+<dl>
+    <dt>Computer</dt>
+    <dd>Computer is an Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis esse, nemo doloremque laudantium laborum placeat culpa quasi architecto reiciendis molestiae veritatis lorem      lorem tempora, repellendus id eos expedita cumque eius perferendis accusantium? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores explicabo amet iste tempora similique esse voluptates vel quam error deleniti, enim dolorum, commodi dolorem voluptas placeat numquam veritatis, aspernatur eligendi?
+    </dd>
+
+
+    <dt>Mouse</dt>
+    <dd>Mouse is an Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis esse, nemo doloremque laudantium laborum placeat culpa quasi architecto reiciendis molestiae veritatis lorem      lorem tempora, repellendus id eos expedita cumque eius perferendis accusantium? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores explicabo amet iste tempora similique esse voluptates vel quam error deleniti, enim dolorum, commodi dolorem voluptas placeat numquam veritatis, aspernatur eligendi?
+    </dd>
+</dl>
+<!-- Menu Concept without css-->
+<nav>
+    <ul>
+        <li>Home</li>
+        <li>About Tritity
+            <ul>
+                <li>Introduction</li>
+                <li>Vision, Mission </li>
+                <li>TimeLine</li>
+                <li>Facts</li>
+            </ul>
+        </li>
+        <li>Academic Programs</li>
+        <li>Trinity People</li>
+        <li>Messages</li>
+    </ul>
+    
+</nav>
+
+<!-- INserting Images on webpage-->
+<!--
+
+    <img />
+    attributes
+    src="path"
+    alt="alternative test"
+    title="title of the image"
+    align="left/right/center"
+    hspace="2px"
+    vspace="2px"
+    width=""
+    height=""
+-->
+
+<img src="images/banner3.jpg" width="960px" height="200px"/>
+
+
+
+<div>
+    <p align="right"><a href="#top">TOP</a></p>
+</div>
+
+    
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Embeded Style sheet</title>
+    <style>
+        /* Universal Selector */
+        *{
+            margin:0px;
+            padding:0px;
+        }
+
+        /* ID sleector */
+        /* It must be call by adding a id attribute in html elements.*/
+        /* eg <div id="wrapper"></div>*/
+        #wrapper{
+            width:1140px;
+            min-height: 500px;
+            background-color: aquamarine;
+            border:2px solid  #fff;
+            border-radius: 0px 20px 0px 20px ;
+            margin:auto;
+        }
+
+        /*Type Selector*/
+        /* it can be call by using that html element in your webpage.*/
+        body{
+            background-color: burlywood;
+        }
+
+        /*Class Selector*/
+        /* you must add class attribute in your html element to attach */
+        .myheading{
+            font-size:25px;
+            font-variant: small-caps;
+            font-weight: bolder;
+            color:crimson
+        }
+    </style>
+</head>
+<body>
+    <div id="wrapper">
+        <h1 class="myheading">Welcome to the site</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure delectus accusantium vel placeat molestias culpa veritatis nobis cumque, pariatur minima modi aut eaque ipsum optio vitae animi maiores eos dolorem?</p>
+    </div>
+</body>
+</html>

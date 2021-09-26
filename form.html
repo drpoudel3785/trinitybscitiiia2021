@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <!--
+        <form>
+             attributes
+                 name=""
+                 action=""
+                 method="GET/POST"
+                 enctype="multipart/form-data"
+
+            <label></label>
+            <legend></legend>
+            <fieldset></fieldset>
+
+            <input />
+               attributes
+                 type="text"
+                        ="password"
+                        ="email"
+                        ="url"
+                        ="number"
+                        ="radio"
+                        ="checkbox"
+                        ="file"
+                        ="hidden"
+                        ="submit"
+                        ="reset"
+                        ="date"
+                        "color"
+            <select></select>  // for making a dropdown
+            <button></button>
+            <textarea></textarea> //multiline input
+        </form/
+    -->
+
+    <form method="POST" name="login" action="" enctype="multipart/form-data">
+        <fieldset>
+            <legend>Login</legend>
+                <input type="text" name="username" placeholder="Username" />
+                <input type="password" name="password" placeholder="Password" />
+                <input type="submit" name="submit" value="Login" />
+        </fieldset>
+    </form>
+
+    <form method="POST" name="register" action="" enctype="multipart/form-data">
+        <fieldset>
+            <legend>Register</legend>
+        <input type="text" maxlength="40" size="20" placeholder="First name"/ >
+        <input type="text" maxlength="30" size="15" placeholder="Surname" /><br/>
+        <input type="text" size="35" placeholder="Mobile no or Email Address" /><br/>
+        <input type="password" size="35" placeholder="Password" /><br/>
+        <select size="1" name="day">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="31">31</option>
+        </select>
+        <select size="1" name="month">
+            <option value="jan">January</option>
+            <option value="feb" selected>feburary</option>
+            <option value="dec">December</option>
+        </select>
+
+        <br/>
+          <input  type="radio" name="gender" value="M" checked>Male
+          <input  type="radio" name="gender" value="F" >Female
+          <input  type="radio" name="gender" value="O" >Others
+
+          <br/>
+
+          <input type="checkbox" name="php" value="php" checked /> PHP
+          <input type="checkbox" name="java" value="java" /> java 
+           <input type="checkbox" name="asp" value="asp"  /> ASP
+           <br/>
+           <textarea rows="5" cols="50" name="comments">
+
+           </textarea>
+           <br/>
+           <input type="file" name="upload"/>
+
+           <br/>
+           <input type="submit" name="submit" vlaue="Register">
+           <input type="reset" name="rest" vlaue="Cancel">
+
+        </fieldset>
+
+    </form>
+
+    
+</body>
+</html>

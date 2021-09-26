@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio And Video</title>
+</head>
+<body>
+
+    <!--
+        There are three types of css
+        1. inline css // one elements
+        2. embedded css   // one docuemnt
+        3. external css  // entire site will control by using a single css file
+
+        how inline css used
+          1. style attributes in your html tags.
+             syntax: style="property:value; property:value;"
+    -->
+    <h1 style="color:red; font-size:70px;">Welcome to the audio and video pages</h1>
+
+    <audio src="media/audio.mp3"  loop controls>
+        
+        <p>Your browser doesn't support HTML5 audio. Here is
+           a <a href="media/audio.mp3">link to the audio</a> instead.</p>
+      </audio>
+
+      <audio controls  >
+          <source src="media/audio.mp3" type="audio/mpeg"/>
+
+          <p>Your browser doesn't support HTML5 audio. Here is
+            a <a href="media/audio.mp3">link to the audio</a> instead.</p>
+
+      </audio>
+
+
+      <video controls width="500px" preload="auto" poster="images/banner1.jpg" >
+          <source src="media/video.mp4" type="video/mp4" />
+
+          <p>Your browser doesn't support HTML5 video. Here is
+            a <a href="media/video.mp4">link to the Video</a> instead.</p>
+      </video>
+    
+</body>
+</html>
