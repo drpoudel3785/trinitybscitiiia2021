@@ -1,0 +1,19 @@
+*{    margin:0px;   padding:0px; }
+body{    background-color: aquamarine;}
+#container{
+    width:1140px;    min-height:540px;    background-color: azure; margin:auto auto;
+}
+.row{min-height:5px;}
+.col100{width:100%;}
+.col75{width:75%; float:left;}
+.col50{width:50%; float:left;}
+.col25{width:25%; float:left;}
+.clear{clear:both;}
+
+#banner{
+    width:100%;
+    min-height: 150px;
+    background-image: url('../images/banner1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
