@@ -9,6 +9,8 @@ body{    background-color: aquamarine;}
 .col50{width:50%; float:left;}
 .col25{width:25%; float:left;}
 .clear{clear:both;}
+.imgresponsive{width:100%; height:auto;}
+.clear{clear:both;}
 
 #banner{
     width:100%;
@@ -16,4 +18,28 @@ body{    background-color: aquamarine;}
     background-image: url('../images/banner1.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+@media screen and (max-width: 768px)
+{
+    body{background-color:blue;}
+
+    #container{width: 750px;};
+    .colmd100{width:100%}
+.colmd75{width:75%; float:left;}
+.colmd50{width:50%; float:left;}
+.colmd20{width:50%; float:left;}
+
+}
+
+@media screen and (max-width: 360px){
+    body{
+        background-color: green;
+    }
+
+    #container{width: 340px;}
+    .colsm100{width:100%;}
+    .colsm75{width:75%; float:left;}
+.colsm50{width:50%; float:left;}
+.colsm20{width:50%; float:left;}
 }

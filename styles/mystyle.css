@@ -27,3 +27,17 @@ body{
     font-weight: bolder;
     color:crimson
 }
+@media screen and (min-width: 768px)
+{
+    body{background-color:blue;}
+
+    #wrapper{width: 768px;};
+}
+
+@media screen and (min-width: 360px){
+    body{
+        background-color: green;
+    }
+
+    #wrapper{width: 360px;};
+}
