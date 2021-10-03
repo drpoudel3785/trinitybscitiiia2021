@@ -1,7 +1,7 @@
 *{    margin:0px;   padding:0px; }
 body{    background-color: aquamarine;}
 #container{
-    width:1140px;    min-height:540px;    background-color: azure; margin:auto auto;
+    width:1140px;    min-height:1540px;    background-color: azure; margin:auto auto;
 }
 .row{min-height:5px;}
 .col100{width:100%;}
@@ -20,6 +20,28 @@ body{    background-color: aquamarine;}
     background-size: cover;
 }
 
+#social{
+    right:0px;
+    top:200px;
+    position:fixed;
+    width:50px;
+    height:230px;
+    background-color: brown;
+}
+
+#social ul{
+    list-style-type: none;
+}
+#social ul li{
+    font-size:2.7em;
+    color:#ffffff;
+    padding:3px;
+
+}
+.topmenu{width:100%; background-color: coral; min-height: 60px;}
+.topmenu nav{}
+.topmenu nav ul{list-style-type:none;}
+.topmenu nav ul li{display: inline-block; padding:15px; font-size:2em;color:#ffffff}
 @media screen and (max-width: 768px)
 {
     body{background-color:blue;}
