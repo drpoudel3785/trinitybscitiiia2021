@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout</title>
+</head>
+
+<style>
+    main, header, section, aside, footer {
+    margin: 0;
+    padding: 20px;
+    border: 1px solid #000000;
+    color: #ffffff;
+}
+
+main {
+    background: #000000;
+}
+
+.header {
+    background: #03a9f4;
+}
+
+.hero {
+    background: #d22b1f;
+}
+
+.content {
+    background: #129a22;
+    flex:1;
+    
+}
+
+.sidebar {
+    border: 1px solid #000000;
+    background: #673ab7;
+    flex-grow: 2;
+   
+}
+
+.footer {
+    border: 1px solid #000000;
+    background: #616161;
+}
+
+@media screen and (min-width: 640px){
+    .flex-container {
+        display: flex;
+    }    
+}
+</style>
+<body>
+    <!-- Main Content -->
+<main>
+    <!-- Header -->
+    <header>
+        Header
+    </header>
+    <!-- Hero -->
+    <section class="hero">
+        Hero
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sumenda potius quam expetenda. Nihil opus est exemplis hoc facere longius.
+        </p>
+    </section>
+    <!-- Content -->
+    <div class="flex-container">
+    <section class="content">
+        Content Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi, rem doloribus! Delectus ullam dolorem veniam provident eos exercitationem culpa error. Dolorum ipsam impedit quos doloribus provident eius vitae deleniti beatae.
+
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis illo, ea optio similique, ipsam enim recusandae ullam ipsum consequuntur vitae fuga sint quas necessitatibus quidem! Perferendis aliquam unde corrupti magni.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti a, deserunt iure nam impedit voluptatem eius ad natus error facere tempora repellat quod veniam porro labore! Praesentium, repellendus illo! Vel.
+    </section>
+    <!-- Sidebar -->
+    <aside class="sidebar">
+        Sidebar
+    </aside>
+
+</div>
+    <!-- Footer -->
+    <footer>
+        Footer
+    </footer>
+</main>
+
+    
+</body>
+</html>
